@@ -11,6 +11,7 @@
     color: #005FAC;
     font-weight: bold;
     border-radius: 2px;
+    font-size: 20px;
     background-color: white;
 }
 /* Banner Section */
@@ -79,6 +80,7 @@
 
 .my-plans div{
     text-align: center;
+    line-height: 26px;
 }
 
 /* Call Section */
@@ -89,5 +91,82 @@
 
 .call .positive{
     background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     padding: 100px 50px;
+}
+/* Contact Section */
+.contact {
+    padding: 50px 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #005FAC;
+    border-radius: 10px;
+    margin: 50px 150px;
+}
+
+.contact .methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact > p{
+    margin: 20px 0;
+}
+.contact div {
+    text-align: center;
+    line-height: 26px;
+    margin-top: 25px;
+}
+.contact i{
+    font-size: 25px;
+}
+.contact div div{
+    color: white;
+    background-color: #005FAC;
+    padding: 50px 50px;
+    width: 180px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 30px 1px #1514149a;
+}
+/* Footer */
+footer{
+    background-color: #151414;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+footer .footer-left{
+ width: 50%;   
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+footer .social-media{
+    margin-top: 20px;
+}
+
+footer .social-media img{
+    margin-right: 10px;
+}
+
+footer form input[type="email"]{
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+footer form input[type="submit"]{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    background-color: #005FAC;
 }
