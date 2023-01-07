@@ -1,18 +1,28 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
+/* Common Style */
+.white-btn{
+    border: none;
+    padding: 10px 20px;
+    color: #005FAC;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: white;
+}
 /* Banner Section */
 .banner{
-    padding: 100px 200px;
+    padding: 200px;
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+    color: white;
 }
 
 .banner .right{
-    font-family: 'Work Sans', sans-serif;
     text-align: right;
     width: 50%;
     margin-left: auto;
@@ -20,4 +30,64 @@
 .banner h1{
     font-weight: 700;
     font-size: 65px;
+}
+
+.banner p{
+    margin: 20px 0px;
+    margin-left: auto;
+}
+
+/* My Failures Section */
+.my-failures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 300px;
+    gap: 100px;
+    line-height: 26px;
+}
+
+.my-failures img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.my-failures p{
+    margin: 20px 0px;
+}
+
+.my-failures ul{
+    list-style: none;
+}
+
+.my-failures i{
+    margin-right: 5px;
+    color: #16D887;
+}
+
+/* My Plans Section */
+.my-plans{
+    padding: 0px 200px;
+    margin-bottom: 50px;
+}
+
+.my-plans .plans{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-plans div{
+    text-align: center;
+}
+
+/* Call Section */
+.call{
+    padding: 100px 200px;
+    color: white;
+}
+
+.call .positive{
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    padding: 100px 50px;
 }
